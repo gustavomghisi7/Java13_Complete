@@ -2,7 +2,7 @@ package controle;
 
 import java.util.Scanner;
 
-public class WhileIndeterminado {
+public class AulaWhileIndeterminado {
 
 	public static void main(String[] args) {
 		
