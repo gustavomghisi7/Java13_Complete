@@ -8,7 +8,7 @@ public class UsarData {
 		d1.ano = 2021;
 		
 		var d2 = new Data(7, 8, 1995);
-		
+		 
 		String dataFormatada1 = d1.obterDataFormatada();
 		
 		System.out.println(dataFormatada1);

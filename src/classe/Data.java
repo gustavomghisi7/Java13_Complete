@@ -2,9 +2,7 @@ package classe;
 
 public class Data {
 	
-	int dia;
-	int mes;
-	int ano;
+	int dia, mes, ano;
 	
 	Data(){
 		// dia = 1;
@@ -19,7 +17,8 @@ public class Data {
 	}
 	
 	String obterDataFormatada() {
-		return String.format("%s/%s/%s", this.dia, mes, ano);
+		final String formato = "%d/%d/%d";
+		return String.format(formato, this.dia, mes, ano);
 	}
 	
 	void imprimirDataFormatada() {

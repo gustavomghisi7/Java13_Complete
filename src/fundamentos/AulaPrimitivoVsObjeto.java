@@ -11,5 +11,10 @@ public class AulaPrimitivoVsObjeto {
 		int a = 123;
 		System.out.println(a);
 	}
+	
+	// byte, short, int, long -> 0
+	// float, double -> 0.0
+	// boolean -> false
+	// char -> '\u0000'
 
 }
